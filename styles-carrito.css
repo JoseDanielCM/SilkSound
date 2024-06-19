@@ -110,6 +110,10 @@ body{
     display: grid;
     grid-template-columns:  auto 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    font-size: 2vw;
+    font-weight: bold;
+    border: 2px solid purple;
+    border-radius: 20px;
 }
 
     .articulos-productos > img{
@@ -117,12 +121,21 @@ body{
         display: inline-block;
         grid-column: 1;
         grid-row: 1 / 3;
-        padding-right:5px ;
+        padding-right:15px ;
+        border-radius: 20px;
     }
 
     .boton-eliminar-carrito{
         grid-column: 6;
         grid-row: 1/3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boton-eliminar-carrito img{
+        width: 5vw;
+
     }
 
 .texto-articulos-productos{
