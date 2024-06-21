@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles-carrito.css">
+    <link rel="stylesheet" href="styles-carrito-product1.css">
     <title>Document</title>
 </head>
 <body>
@@ -52,23 +52,40 @@
         <section class="ejemplos-productos">
             <h2>Carrito</h2>
 
-            <article class="articulos-productos">
-                <img src="https://http2.mlstatic.com/D_NQ_NP_2X_904140-MCO51843801912_102022-F.webp" alt="">
-                <span>Nombre</span>
-                <span>Cantidad</span>
-                <span>Precio</span>
-                <span>Subtotal</span>
-                <span>Abrigo 02</span>
-                <span>2</span>
-                <span>$ 2.000</span>
-                <span>$ 4.000</span>
-                <a class="boton-eliminar-carrito" href="carrito-vacio.html"><img src="borrar.png" alt=""></a>
-            </article>
+            <div class="Fondo-negro">
+                <a class="basura-link" href="carrito-vacio.html"><img src="basura.png" alt=""></a>
+                <article class="articulos-productos">
+                    <img class="cart-art-img" src="https://http2.mlstatic.com/D_NQ_NP_2X_904140-MCO51843801912_102022-F.webp" alt="">
+                    <span class="cart-nombre">Nombre</span>
+                    <span class="cart-cant">Cantidad</span>
+                    <span class="cart-precio">Precio</span>
+                    <span class="cart-subt">Subtotal</span>
+                    <span class="cart-nom-es">Abrigo 02</span>
+                    <span class="cart-cant-es">2</span>
+                    <span class="cart-precio-es">$ 2.000</span>
+                    <span class="cart-subt-es">$ 4.000</span>
+                    <a class="boton-eliminar-carrito" href="carrito-vacio.html"><img src="borrar.png" alt=""></a>
+                </article>
+            </div>
+            <section class="section-carrito-botones-vaciar-compra">
+                <a href="carrito-vacio.html">
+                    <div class="vaciar-carrito">
+                        <img src="basura.png" alt="Trash icon">
+                        vaciar
+                    </div>
+                </a>
+                
+                <div class="realizar-compra">
+                    <span class="txt-total">Total</span>
+                    <span class="txt-precio-total">$ 8500</span>
+                    <div class="boton-comprar-ahora">
+                        <span>Comprar</span>
+                    </div>
+                </div>
+            </section>
         </section>
         
-        <section class="section-carrito-botones-vaciar-compra">
             
-        </section>
     </main>
 
 </body>

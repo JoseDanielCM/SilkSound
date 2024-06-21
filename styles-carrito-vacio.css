@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    background-color: rgb(238, 192, 255);
+}
+
+#navegacion-superior{
+    background-color: #34044cd4;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+    #navegacion-superior-logo{
+        width: 8vw;
+        padding:0 50px;
+    }
+
+    #navegacion-superior-titulo{
+        font-size: 7vw;
+        color: rgb(252, 225, 249);
+        margin: 0;
+    }
+
+.contenido-pagina{
+    display: grid;
+    grid-template-columns: 20vw 1fr;
+    grid-template-rows: 120vh;
+}
+
+@media (min-width:1200px) and (max-width:1350px) {
+    .contenido-pagina{
+        display: grid;
+        grid-template-columns: 20vw 1fr;
+        grid-template-rows: 130vh;
+    }
+}
+
+@media (min-width:1350px) and (max-width:1500px) {
+    .contenido-pagina{
+        display: grid;
+        grid-template-columns: 20vw 1fr;
+        grid-template-rows: 145vh;
+    }
+}   
+
+@media (min-width:1500px) and (max-width:1700px) {
+    .contenido-pagina{
+        display: grid;
+        grid-template-columns: 20vw 1fr;
+        grid-template-rows: 160vh;
+    }
+}
+
+@media (min-width:1700px) and (max-width:2500px) {
+    .contenido-pagina{
+        display: grid;
+        grid-template-columns: 20vw 1fr;
+        grid-template-rows: 190vh;
+    }
+}
+
+
+.menu-opciones{
+    background-color: #8844a3;
+    width: 20vw;
+    position: fixed;
+}
+
+    .menu-opciones-productos{
+        margin: 15px;
+        display: grid;
+        row-gap: 5vh;
+    }
+
+        .link-menu-opciones{
+            display: grid;
+            grid-template-columns: 20% 80%;
+            grid-template-rows: 1fr;
+
+            text-decoration: none;
+            color: white;
+        }
+
+        .opciones-imagen{
+            width: 100%;
+            margin: auto;
+        }
+
+        
+
+        #menu-conenedor-texto-carrito{
+            display: flex;
+            justify-content: end;
+            align-items: end;
+        }
+
+        .opciones-texto{
+            font-size: 2vw;
+            font-weight: bold;
+            margin:auto 0;
+        }
+
+        #autor{
+            font-size: 2vw;
+            color:white;
+        }
+
+#ayuda{
+    grid-column: 1;
+    background-color: #8844a3;
+}
+
+.ejemplos-productos{
+    grid-column: 2;
+}
+
+.ejemplos-productos > h2{
+    text-align: center;
+    font-size: 8vw;
+}
+
+.ejemplos-productos > h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 3.5vw;
+    font-weight: lighter;
+}
+
+.ejemplos-productos > img {
+    width: 70%;
+    margin:0 15%;
+}
+
+@media (max-width:800px) {
+    
+#pagina-celular{
+    position: relative;
+    background-color: rgb(238, 192, 255);
+}
+
+#navegacion-superior{
+    background-color: #34044cd4;
+    display: grid;
+    grid-template-columns: 0.9fr 1fr 4fr;
+    align-items: start;
+}
+
+    #navegacion-superior-menu{
+        width: 5vw;
+        justify-self: center;
+        align-self: center;
+    }
+
+    #navegacion-superior-logo{
+        width: 13vw;
+    }
+
+    #navegacion-superior-titulo{
+        font-size: 12vw;
+        color: rgb(252, 225, 249);
+        margin: 0;
+    }
+
+.contenido-pagina{
+    display: grid;
+    grid-template-columns: 38vw 1fr;
+}
+
+.menu-opciones{
+    background-color: #8844a3;
+    width: 38vw;
+    height: 100vh;
+    position: fixed;
+}
+
+    .menu-opciones-productos{
+        margin: 15px;
+        margin-top: 30px;
+        display: grid;
+        row-gap: 8vh;
+    }
+
+        .link-menu-opciones{
+            display: grid;
+            grid-template-columns: 20% 80%;
+            grid-template-rows: 1fr;
+
+            text-decoration: none;
+            color: white;
+        }
+
+        .opciones-imagen{
+            width: 100%;
+            margin: auto;
+        }
+
+        .opciones-imagen-opcion-carrito{
+            margin-top: 50px;
+        }
+
+        #menu-conenedor-texto-carrito{
+            display: flex;
+            justify-content: end;
+            align-items: end;
+        }
+
+        .opciones-texto{
+            font-size: 4vw;
+            font-weight: bold;
+            margin:auto 0;
+        }
+
+        .opciones-texto--carrito{
+            margin-top: 50px;
+        }
+
+        #autor{
+            font-size: 3vw;
+            color:white;
+            margin-top: 50px;
+        }
+
+#ayuda{
+    grid-column: 1;
+    background-color: #8844a3;
+}
+
+.ejemplos-productos{
+    grid-column: 2;
+}
+
+.ejemplos-productos > h2{
+    text-align: center;
+}
+
+.articulos-productos{
+    display: block;
+    width: 60%;
+    height: 25vh;
+    margin: auto;
+    margin-bottom: 10vh;
+}
+}
+

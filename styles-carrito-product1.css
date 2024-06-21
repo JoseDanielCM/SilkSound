@@ -24,14 +24,14 @@ body{
 .contenido-pagina{
     display: grid;
     grid-template-columns: 20vw 1fr;
-    grid-template-rows: 120vh;
+    grid-template-rows: 91.5vh;
 }
 
 @media (min-width:1200px) and (max-width:1350px) {
     .contenido-pagina{
         display: grid;
         grid-template-columns: 20vw 1fr;
-        grid-template-rows: 130vh;
+        grid-template-rows: 92vh;
     }
 }
 
@@ -39,7 +39,7 @@ body{
     .contenido-pagina{
         display: grid;
         grid-template-columns: 20vw 1fr;
-        grid-template-rows: 140vh;
+        grid-template-rows: 92vh;
     }
 }
 
@@ -47,7 +47,7 @@ body{
     .contenido-pagina{
         display: grid;
         grid-template-columns: 20vw 1fr;
-        grid-template-rows: 150vh;
+        grid-template-rows: 90vh;
     }
 }
 
@@ -55,7 +55,7 @@ body{
     .contenido-pagina{
         display: grid;
         grid-template-columns: 20vw 1fr;
-        grid-template-rows: 195vh;
+        grid-template-rows: 100vh;
     }
 }
 
@@ -379,7 +379,6 @@ body{
         height: auto;
     }
 
-
     .articulos-productos:hover{
         top: 9vw;
         transition-delay: 0s;
@@ -510,5 +509,5 @@ body{
             border-radius: 10px;
         }
 
-}   
+}
 
