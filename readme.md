@@ -1,53 +1,50 @@
 <img src="https://images.emojiterra.com/google/android-11/512px/1faa1.png" width="100px" />
 
-## Tabla de contenido
+## Tabla de contenido de SilkSound
 1. [Información general](#información-general)
-2. [Estado del proyecto ](#status)
-3. [explanation](#explanation)
-4. [Technologies](#Technologies)
-5. [Bugs](#bugs)
-
+2. [Estado](#Estado)
+3. [Explicación](#Explicación)
+4. [Tecnologías](#Technologies)
 
 ### Información general
 ***
 Este es un proyecto para crear en una pagina web e-commerce de venta de ropa, de nombre SilkSound por la relación de la seda con estas prendas, diseñada tanto para dispositivos móviles como pantallas de portátil o computador, centrado en la venta de prendas de todo tipo como camisas, buzos, pantalones separados por su respectiva categoría
 
 
-### Status
-The **principal structure** of the project is **finished**, except for adding some extra pages, such as a section where data is requested to make the purchase, and a section where once registered, the profile data and configurations appear, apart from that, the layout is finished, although it is not functional because at the moment **javascript has not been implemented** to make it functional, but it is planned to implement it in the future.
-### Explanation
+### Estado
+***
+La **principal estructura** de este proyecto está ya **finalizado**, excepto de añadir algunas paginas extra por ejemplo un apartado de inicio de sesión donde una vez registrado se pueda acceder a configuración y demás, o donde se piden datos para realizar la compra, dejando esto de lado la parte visual y **maquetación** está **terminado**, dejando de lado la funcionalidad ya que en la actualidad este proyecto **no cuenta con JavaScript** y por tanto aún *no es funcional*
+
+### Explicación
 ***
 
-1. We can see the **home page** which is composed by a **navigation bar** at the top to navigate between three pages 
-* Home, the page we are currently on so it is highlighted.
-* Cart
-* User
+1. En la parte superior de esta pagina podemos ver una barra horizontal con el logo siendo este una aguja y un hilo rosado donde se puede ver la letra `S` por las iniciales de este proyecto, teniendo a su lado el nombre `SilkSound`
 
-You will find the **logo**, with the **project name** and a brief **introduction** to give context, together with the **four categories** of drones where if you *click* you will be redirected to another section* of the same page with the respective category.
+	En computadores, portátiles o celulares en modo que superen determinados pixeles horizontales, se tiene una barra vertical con las categorías de las prendas, que son: 
+	* Ver todos los productos
+	* Abrigos
+	* Camisetas
+	* Pantalones
+	* Carrito
+	En celulares en modo vertical esta barra se coloca inmediatamente después de la barra con el logo y nombre teniendo las mismas categorías colocadas de manera horizontal
 
+2. En la parte central de la pagina se encuentran los productos dependiendo de que categoría hayamos escogido, tendrán una imagen de fondo del producto además de datos como el precio, identificador y un botón para agregarlo al carrito
 
-2. The **Name of the categories** with two **example products**, with a background image, image of the drone name and price, if clicked redirects to the page of that drone.
+3. El **carrito** aunque no funcional sirve para tener una idea inicial de como funciona este, teniendo los productos agregados, colocados de manera horizontal en la respectiva version teniendo la **foto a la izquierda** y datos como el **nombre**, **cantidad**, **precio**, y **subtotal**, además de un boton para eliminar este producto del carrito redirigiendo a un carrito sin este elemento.
 
+	En la versión de carrito de **celular** se muestran estos productos de forma **vertical** teniendo la imagen primero, luego los datos mencionados colocados abajo, además del hecho de que presionando el producto este a través  de una animación se desplaza un poco hacía abajo dejando ver atrás de este un fondo negro con un **botón de eliminar** este producto del carrito
 
-3. Fourth category of the **home** page and the **footer** where the **logo**, **title**, **social networks**, **address**, and **legal documents of the site** are located.
+Una vez finalizados los productos del carrito se pueden ver dos botones, uno a la izquierda para eliminar todos los productos en este, mostrando una pagina donde se nos dice que el carrito está vacío, y el otro botón representando el total a pagar por los productos que se encuentran en el carrito
 
-
-4. Example of a respective product page, where the product appears in the upper half, and below is a block with **name** **add or remove units** **stars** **description** **price** **add to cart button**.
-***
-
-
-5. Example of the **cart**, with four products added, where if you **click they move vertically** to reveal a delete button (not functional), **total products**, **total price** and **continue shopping button (not functional)* with a part of the **footer** below.
-***
-
-6. Structure of registration page, with **email** **username** **password** or the option to *continue with google**.
 ***
 ## Technologies
-A list of technologies used within the project:
-* [HTML]
-* [CSS]
-* [Visual_Studio_Code]
+Una lista de las tecnologías usadas en el proyecto
+* [ HTML ]
+* [ CSS ]
+* [ Visual_Studio_Code ]
+* 
 ## installation
 To follow a proper continuity order although not necessary, you should first open the html file called **index.html** either with the **Live Server** extension of **visual studio code** or by running the **.html file**
 
-## bugs
-Its a feature not a bug, but since it is a page intended for mobile, if you want to view the page correctly and not the message to test on mobile, you can open it in a computer browser, but setting the mobile mode in the inspect section
+Para descargar y abrir el documento correctamente se debe descargar el zip de GitHub, y extraerlo en un sitio al gusto para  luego ingresar a la carpeta creada, donde se puede iniciar dando click a cualquier archivo `.html` para abrir su respectiva página y a partir de este empezar a navegar aunque **se recomienda** abrir primero el `index.html` puesto que este es la pagina principal
+
