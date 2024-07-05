@@ -4,7 +4,9 @@
 1. [Información general](#información-general)
 2. [Estado](#Estado)
 3. [Explicación](#Explicación)
-4. [Tecnologías](#Technologies)
+4. [Tecnologías](#Tecnologías)
+5. [Instalación](#Instalación)
+
 
 ### Información general
 ***
@@ -37,14 +39,13 @@ La **principal estructura** de este proyecto está ya **finalizado**, excepto de
 Una vez finalizados los productos del carrito se pueden ver dos botones, uno a la izquierda para eliminar todos los productos en este, mostrando una pagina donde se nos dice que el carrito está vacío, y el otro botón representando el total a pagar por los productos que se encuentran en el carrito
 
 ***
-## Technologies
+### Tecnologías
 Una lista de las tecnologías usadas en el proyecto
 * [ HTML ]
 * [ CSS ]
 * [ Visual_Studio_Code ]
 * 
-## installation
-To follow a proper continuity order although not necessary, you should first open the html file called **index.html** either with the **Live Server** extension of **visual studio code** or by running the **.html file**
+### Instalación
 
 Para descargar y abrir el documento correctamente se debe descargar el zip de GitHub, y extraerlo en un sitio al gusto para  luego ingresar a la carpeta creada, donde se puede iniciar dando click a cualquier archivo `.html` para abrir su respectiva página y a partir de este empezar a navegar aunque **se recomienda** abrir primero el `index.html` puesto que este es la pagina principal
 
